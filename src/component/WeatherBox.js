@@ -1,7 +1,7 @@
 import React from 'react'
 
 const WeatherBox = ({weather}) => { //props에 있는 weather만 뽑아오기
-    console.log('weather : ',weather);
+    // console.log('weather : ',weather);
 
 
   return (
