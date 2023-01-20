@@ -6,7 +6,7 @@ const WeatherButton = ({cities, setCity}) => {
 
   return (
     <div className='button-box'>
-        <Button variant="success">Current Location</Button>
+        <Button variant="success" onClick={()=>setCity('')}>Current Location</Button>
         
         {cities.map((item, index) => ( //cities 배열에 있는 item으로 button 만들기
           <Button variant="success" 
