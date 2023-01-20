@@ -28,3 +28,11 @@ body {
   justify-content: space-between;
   width: 260px;
 }
+
+.button-box {
+  margin-top: 10px;
+}
+
+.select-btn {
+  margin: 0 5px;
+}

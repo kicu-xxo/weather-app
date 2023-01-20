@@ -7,7 +7,7 @@ import WeatherBox from './component/WeatherBox';
 import WeatherButton from './component/WeatherButton';
 
 //앱이 실행되자마자 현재 기반 위치의 날씨가 보인다 O
-//날씨 정보에는 도씨, 섭씨, 최고, 최저, 날씨 상태가 보인다 O
+//날씨 정보에는 도시, 현재 온도, 최고, 최저, 날씨 상태가 보인다 O
 //5개의 버튼이 있다(현재 위치, 다른 도시) O
 //도시 버튼을 클릭하면 도시별 날씨가 나온다 O
 //현재위치 버튼을 누르면 다시 현재위치 날씨가 나온다 O

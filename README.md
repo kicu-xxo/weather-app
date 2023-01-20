@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+## 🌈날씨 정보 웹🌈
+현재 위치와 여러 나라의 실시간 날씨 정보를 보여줍니다.
+<br/>
+<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧭기술 스택🧭
+<p>
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/react-61DAFB?style=flat-square&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white">
+</p>
+<br/>
+<br/>
 
-## Available Scripts
+## 📔구현 설명📔
+react 문법을 사용해서 구현한 날씨 정보 웹 입니다.
 
-In the project directory, you can run:
+현재 위치의 경도, 위도를 가져와 날씨 API를 호출해 사용자 위치의 날씨 정보를 알 수 있습니다.
 
-### `npm start`
+다른 도시의 날씨는 cityName으로 API를 가져와 정보를 보여줍니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+확인할 수 있는 정보는 도시 이름, 현재 기온, 최고 기온, 최저 기온, 날씨 설명 입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+API를 불러오는 동안에는 화면에 정보가 보이지 않고 loading spinner가 보여집니다.
+<br/>
+<br/>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📷Screenshot📷
+<img width = 50% src = "https://user-images.githubusercontent.com/121851869/213694918-b41d173e-56e8-4d5c-bbca-3a566668dd8a.PNG">
+<img width = 50% src = "https://user-images.githubusercontent.com/121851869/213694911-0e34672e-a916-4341-b899-6a9a9ae03e0d.PNG">
+<img width = 50% src = "https://user-images.githubusercontent.com/121851869/213694915-03c5ff1c-8ff1-429c-bbc4-1c42b11ddaa2.PNG">
