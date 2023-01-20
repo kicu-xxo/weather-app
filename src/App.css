@@ -1,0 +1,30 @@
+body {
+  background: url('https://img.freepik.com/free-vector/vector-pastel-green-brown-abstract-textured-background_53876-110548.jpg?w=1800&t=st=1674199420~exp=1674200020~hmac=78fc46ff61d2e5c6049f3a8a9286ebcdab86584cc6111ea3a1471d9cb0fc2437');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border: 5px solid white;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.max-min-temp-box {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
